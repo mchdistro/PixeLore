@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "픽셀로어",
     "description": "Minecraft 1.16.5 (Forge v36.2.42)",
-    "icon": "https://github.com/mchdistro/dotkemon/raw/main/server-icon.png",
+    "icon": "https://github.com/mchdistro/PixeLore/raw/main/server-icon.png",
     "address": "pixelore.kro.kr",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
