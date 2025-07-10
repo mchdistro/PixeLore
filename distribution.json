@@ -1,0 +1,929 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "PixeLore-1.16.5",
+      "name": "픽셀로어",
+      "description": "Minecraft 1.16.5 (Forge v36.2.42)",
+      "icon": "https://github.com/mchdistro/dotkemon/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "pixelore.kro.kr",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.2.42",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 212563,
+            "MD5": "8ff0086ade0cf0f1d513e72edd04348c",
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.16.5-36.2.42",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 13577,
+                "MD5": "f38b527e26e0a0165e2118970d1a4d13",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/versions/1.16.5-forge-36.2.42/1.16.5-forge-36.2.42.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.42:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 2540080,
+                "MD5": "d5b89861a4e02bab15a111d529d99d86",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.2.42:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4214276,
+                "MD5": "e26430416f5d1bd7c205c1b81a0fb8f8",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 11352644,
+                "MD5": "e730c02ba8d7359830484179fa52e18e",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "https://github.com/mchdistro/PixeLore/raw/main/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.builtbroken.ai.improvements:aiimprovements:0.4.0@jar",
+          "name": "AI-Improvements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28376,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/AI-Improvements-1.16.5-0.5.0.jar",
+            "MD5": "bf159753ed2f20e25b0100d91fdbc60f"
+          }
+        },
+        {
+          "id": "com.lypaka:areamanager:${mod_version}@jar",
+          "name": "AreaManager",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 62370,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/AreaManager-1.16.5-1.2.0.jar",
+            "MD5": "6054270652f59117d29f36a11e538141"
+          }
+        },
+        {
+          "id": "moe.plushie.armourers_workshop.compatibility:armourers_workshop:3.2.3-beta@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5890517,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/armourersworkshop-forge-1.16.5-3.2.3-beta.jar",
+            "MD5": "237a63bf8a9260d5cbf62aac0afa6655"
+          }
+        },
+        {
+          "id": "com.betterfpsdist:betterfpsdist:1.2@jar",
+          "name": "Betterfpsdist mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14478,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/betterfpsdist-1.2.jar",
+            "MD5": "2308031c7afa5e023fd5d988210890f7"
+          }
+        },
+        {
+          "id": "com.lypaka:betterpokeitem:1.16.5-2.0.1@jar",
+          "name": "BetterPokeItem",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23581,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/BetterPokeItem-1.16.5-2.0.1.jar",
+            "MD5": "e66e63ce0de7ca2dae64efca67d618ba"
+          }
+        },
+        {
+          "id": "corgiaoc.byg.entrypoint:byg:1.3.4@jar",
+          "name": "Oh The Biomes You'll Go",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10315242,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/byg-1.3.6.jar",
+            "MD5": "47af500ed23d3cacf5404bf984e44250"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.6.0@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27778,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/chat_heads-0.6.0-forge-1.16.5.jar",
+            "MD5": "10595dfd1a32c8e46e11a649f565fbe9"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth-config:4.17.132@jar",
+          "name": "Cloth Config v4 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1465189,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/cloth-config-4.17.132-forge.jar",
+            "MD5": "07248631eca30f7b4872284cc5c4c0f6"
+          }
+        },
+        {
+          "id": "jp.axer.cocoainput.loader:cocoainput:4.0.4@jar",
+          "name": "CocoaInput",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 188469,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/CocoaInput-1.16.5-forge-4.0.4.jar",
+            "MD5": "ed7d070d481b0270a3c42e59548ba0ca"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:7.0.0.31@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 53318,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/Controlling-7.0.0.31.jar",
+            "MD5": "b8b714631cfa5849e07e0ffd95951602"
+          }
+        },
+        {
+          "id": "com.blamejared:crafttweaker:7.1.2.527@jar",
+          "name": "CraftTweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2506393,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/CraftTweaker-1.16.5-7.1.2.527.jar",
+            "MD5": "38345da45657830a73939b87b62b2d0d"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.16.5.20220515@jar",
+          "name": "Custom NPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12457390,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/CustomNPCs-1.16.5.20220515.jar",
+            "MD5": "9d204b1c5dd8cdbe9737fbdc761f33d9"
+          }
+        },
+        {
+          "id": "dareharu.haru:haru:0.45.0@jar",
+          "name": "Haru Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2538877,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/DareHaruDareHaru-0.45.0-final.jar",
+            "MD5": "26c2de4a80165914e894248589b0bbdf"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.18+mc1.16.5@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806163,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/embeddium-0.3.18+mc1.16.5.jar",
+            "MD5": "c3cc4f69081a25f8606c292cfe114717"
+          }
+        },
+        {
+          "id": "meldexun.entityculling:entity_culling:2.1.7@jar",
+          "name": "Entity Culling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60730,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/EntityCulling-1.16.5-2.1.7.jar",
+            "MD5": "9dbe1b391814d9694abbccd6cc8bcc59"
+          }
+        },
+        {
+          "id": "com.vecoo:extralib:1.5.2@jar",
+          "name": "ExtraLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63269,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/ExtraLib-1.5.2-1.16.5.jar",
+            "MD5": "3414c5d7bd25f3e5492600eecaf57466"
+          }
+        },
+        {
+          "id": "shadows.fastsuite:fastsuite:1.1.1@jar",
+          "name": "FastSuite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10829,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/FastSuite-1.16.4-1.1.1.jar",
+            "MD5": "46672d6b456190e9d9b4a67641d42bac"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:2.1.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 108557,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/ferritecore-2.1.1-forge.jar",
+            "MD5": "6a96a36de00e5d8e9bf2e87634d13125"
+          }
+        },
+        {
+          "id": "com.envyful.papi:forgeplaceholderapi:2.0.4@jar",
+          "name": "Forge Placeholder API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1444967,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/ForgePlaceholderAPI-Forge-2.0.4-1.16.5.jar",
+            "MD5": "126690efa5f70f6f93822d55a472bcd2"
+          }
+        },
+        {
+          "id": "bre2el.fpsreducer:fpsreducer:1.24-mc1.16.5@jar",
+          "name": "FPS Reducer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 95076,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/FpsReducer-forge-1.24-mc1.16.5.jar",
+            "MD5": "33801faed801cb3427b1b20cbb9a44fe"
+          }
+        },
+        {
+          "id": "bl4ckscor3.mod:getittogetherdrops:1.16.5-v1.2@jar",
+          "name": "Get It Together, Drops!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7883,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/getittogetherdrops-1.16.5-v1.2.jar",
+            "MD5": "6094cb398deb77dae0a2cbe7c544030d"
+          }
+        },
+        {
+          "id": "ca.landonjw:gooeylibs2:2.3.2@jar",
+          "name": "GooeyLibs2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 84846,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/GooeyLibs-2.3.2.jar",
+            "MD5": "e62502dec3c501eafdb2d6b218484e63"
+          }
+        },
+        {
+          "id": "dareharu.haru:haru:0.47.1-SNAPSHOT@jar",
+          "name": "Haru Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2608793,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/HaruMod-0.47.1-SNAPSHOT-unsigned.jar",
+            "MD5": "5766ab34d4d4fad9d34be3667f727521"
+          }
+        },
+        {
+          "id": "mcp.mobius:jade:2.8.3@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 260212,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/Jade-1.16.4-2.8.3.jar",
+            "MD5": "424b0eb9998bc92defc9eacb5a869a99"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.8.0.1009@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 839446,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/jei-1.16.5-7.8.0.1009.jar",
+            "MD5": "6c7827e443f483cc5e94aaff7c694901"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.8.6@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6694200,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/journeymap-1.16.5-5.8.6.jar",
+            "MD5": "60fc57f5aace9a4c92896f4ced0c60f0"
+          }
+        },
+        {
+          "id": "me.steinborn.krypton.mod.shared:kryptonreforged:mc1.16.5_v1.0.0@jar",
+          "name": "Krypton Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2110314,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/kryptonreforged-mc1.16.5_v1.0.0.jar",
+            "MD5": "1e661faa2cc3be3040fb3024b93ab195"
+          }
+        },
+        {
+          "id": "me.steinborn:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15258,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/lazydfu-0.1.3.jar",
+            "MD5": "fce7920ba6329d631da4025e9322e5e0"
+          }
+        },
+        {
+          "id": "com.ccr4ft3r:lightspeed:1.16.5-1.1.0@jar",
+          "name": "Lightspeed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 49997,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/lightspeed-1.16.5-1.0.5.jar",
+            "MD5": "d49c88b98dfbe4add2bae2e12fc22b05"
+          }
+        },
+        {
+          "id": "com.lypaka:lypakautils:1.16.5@jar",
+          "name": "LypakaUtils",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4484975,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/LypakaUtils-1.16.5-0.5.5.jar",
+            "MD5": "d1455df41cef742a9ef383189cbac4be"
+          }
+        },
+        {
+          "id": "vice.magnesium_extras:magnesium_extras:mc1.16.5_v1.4.0@jar",
+          "name": "Magnesium Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 92605,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/magnesium_extras-mc1.16.5_v1.4.0.jar",
+            "MD5": "330f67629fc09b66718fa19fb7573ce7"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 225324,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/memoryleakfix-1.1.5.jar",
+            "MD5": "fe7c6324891ef8f6d00ebc23f6d185a2"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.18.0+mc1.16.5@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 867079,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/modernfix-forge-5.18.0+mc1.16.5.jar",
+            "MD5": "6989c0a2e20fbe4c2a431b1e64b0e15c"
+          }
+        },
+        {
+          "id": "fudge.notenoughcrashes:notenoughcrashes:4.1.4+1.16.5@jar",
+          "name": "Not Enough Crashes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 178345,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/notenoughcrashes-4.1.4+1.16.5-forge.jar",
+            "MD5": "cd515cc366e4e3a70abcacaf1feeac2d"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.4.8@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3133901,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/oculus-mc1.16.5-1.4.8.jar",
+            "MD5": "568661a2dd12b461674c7f3a80837804"
+          }
+        },
+        {
+          "id": "thingxii.pixelblend:pixelblend:1.1.0@jar",
+          "name": "PixelBlend",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 671039,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/pixelblend-1.1.0.jar",
+            "MD5": "19378064a96e15f22025f7f79f40f9b0"
+          }
+        },
+        {
+          "id": "com.lclc98:pixelconfig:1.0.0@jar",
+          "name": "PixelConfig",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54085,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/PixelConfig-1.16.5-1.0.0.jar",
+            "MD5": "c1e2e185a708ad667c10f129c056a71f"
+          }
+        },
+        {
+          "id": "net.shizotoaster:pixelcringe:1.2.1+1.16.5@jar",
+          "name": "PixelCringe - Pixelmon fixer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18374,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/pixelcringe-1.2.1+1.16.5.jar",
+            "MD5": "205e1b8ac251f2f967bfc524ce9a695a"
+          }
+        },
+        {
+          "id": "com.pixelmonmod:pixelmon:9.1.12@jar",
+          "name": "Pixelmon Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 427522531,
+            "url": "https://download.nodecdn.net/containers/reforged/universal/release/Pixelmon-1.16.5-9.1.13-universal.jar",
+            "MD5": "08f2991eaf207cdcc2bf8a48866d3b52"
+          }
+        },
+        {
+          "id": "com.strangeone101:pixeltweaks:1.10.6@jar",
+          "name": "PixelTweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2423903,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/PixelTweaks-1.10.6.jar",
+            "MD5": "9de0d99fef62700dbcb538355b618d58"
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:4.7.1@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 174158,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/Placebo-1.16.5-4.7.1.jar",
+            "MD5": "b9436888ceffed9622ce58e0d71f8fd2"
+          }
+        },
+        {
+          "id": "com.inhumanity:pmbattleinfo:1.3.0@jar",
+          "name": "Pixelmon Battle Info",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35368,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/PMBattleInfo-1.3.0.jar",
+            "MD5": "220832e2e7cb7c2a254fc0e30c8f7088"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods:sodiumextra:0.4.18+mc1.16.5-build.107@jar",
+          "name": "Rubidium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 313734,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/rubidium-extra-0.4.18+mc1.16.5-build.107.jar",
+            "MD5": "487bea7026df58a87fa3582b17c5ddcc"
+          }
+        },
+        {
+          "id": "com.abdelaziz:saturn:0.0.3@jar",
+          "name": "Saturn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20845,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/saturn-mc1.16.5-0.0.3.jar",
+            "MD5": "44f8f173ce399b7ca01e42021555b611"
+          }
+        },
+        {
+          "id": "com.blamejared:searchables:1.0.7@jar",
+          "name": "Searchables",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82181,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/Searchables-forge-1.16.5-1.0.7.jar",
+            "MD5": "cb8ead007f42969812801258ea50a847"
+          }
+        },
+        {
+          "id": "corgitaco.shutupexperimentalsettings:shutupexperimentalsettings:1.0.3@jar",
+          "name": "Shutup Experimental Settings!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4140,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/shutupexperimentalsettings-1.0.3.jar",
+            "MD5": "150c992d5976049fcda0161132afc269"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.16.5-3.15.20.755@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1485777,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/sophisticatedbackpacks-1.16.5-3.15.20.755.jar",
+            "MD5": "37e2d08e35a1ce66435351e5dc1377ec"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.reeses_sodium_options:textrues_embeddium_options:0.1.2+mc1.16.5@jar",
+          "name": "TexTrue's Embeddium Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 132106,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/textrue_embeddium_options-0.1.2+mc1.16.5.jar",
+            "MD5": "9b5dc1774f51a94e4dd752780a6dbf07"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7684,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "Pixelore리소스팩2번째로중요합니다.zip",
+          "name": "Pixelore리소스팩2번째로중요합니다.zip",
+          "type": "File",
+          "artifact": {
+            "size": 6147056,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/files/resourcepacks/Pixelore%EB%A6%AC%EC%86%8C%EC%8A%A4%ED%8C%A92%EB%B2%88%EC%A7%B8%EB%A1%9C%EC%A4%91%EC%9A%94%ED%95%A9%EB%8B%88%EB%8B%A4.zip",
+            "MD5": "d7443b9331f179bb0e39920bf6ef030c",
+            "path": "resourcepacks/Pixelore리소스팩2번째로중요합니다.zip"
+          }
+        },
+        {
+          "id": "TextureBakeryFREEOgerpon TexturePack.zip",
+          "name": "TextureBakeryFREEOgerpon TexturePack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 4327437,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/files/resourcepacks/TextureBakeryFREEOgerpon%20TexturePack.zip",
+            "MD5": "dfd528bc092eb909ff5d55f341292b6f",
+            "path": "resourcepacks/TextureBakeryFREEOgerpon TexturePack.zip"
+          }
+        },
+        {
+          "id": "가장중요한리소스팩입니다..zip",
+          "name": "가장중요한리소스팩입니다..zip",
+          "type": "File",
+          "artifact": {
+            "size": 462745,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/files/resourcepacks/%EA%B0%80%EC%9E%A5%EC%A4%91%EC%9A%94%ED%95%9C%EB%A6%AC%EC%86%8C%EC%8A%A4%ED%8C%A9%EC%9E%85%EB%8B%88%EB%8B%A4..zip",
+            "MD5": "017fb1e944c6fdf5835bfc00bb042c17",
+            "path": "resourcepacks/가장중요한리소스팩입니다..zip"
+          }
+        },
+        {
+          "id": "꾸미기용도입니다빼셔도되요.zip",
+          "name": "꾸미기용도입니다빼셔도되요.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3410246,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/files/resourcepacks/%EA%BE%B8%EB%AF%B8%EA%B8%B0%EC%9A%A9%EB%8F%84%EC%9E%85%EB%8B%88%EB%8B%A4%EB%B9%BC%EC%85%94%EB%8F%84%EB%90%98%EC%9A%94.zip",
+            "MD5": "111a1c46910dad58ebb0482fed30811f",
+            "path": "resourcepacks/꾸미기용도입니다빼셔도되요.zip"
+          }
+        },
+        {
+          "id": "BSL_v10.0.zip",
+          "name": "BSL_v10.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1121678,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/files/shaderpacks/BSL_v10.0.zip",
+            "MD5": "a4d53a8d2a97d99e4e9ebc16eae7a39c",
+            "path": "shaderpacks/BSL_v10.0.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.5.1.zip",
+          "name": "ComplementaryReimagined_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456328,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/files/shaderpacks/ComplementaryReimagined_r5.5.1.zip",
+            "MD5": "e49c87af1c2bb64337068f6928f06bff",
+            "path": "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.5.1.zip",
+          "name": "ComplementaryUnbound_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456332,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
+            "MD5": "576ef06da170458879f3a03e685d487a",
+            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
