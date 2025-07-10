@@ -891,6 +891,16 @@
           }
         },
         {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 81,
+            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/files/servers.dat",
+            "path": "servers.dat"
+          }
+        },
+        {
           "id": "BSL_v10.0.zip",
           "name": "BSL_v10.0.zip",
           "type": "File",
