@@ -707,16 +707,6 @@
           }
         },
         {
-          "id": "thingxii.pixelblend:pixelblend:1.1.0@jar",
-          "name": "PixelBlend",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 671039,
-            "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/forgemods/required/pixelblend-1.1.0.jar",
-            "MD5": "19378064a96e15f22025f7f79f40f9b0"
-          }
-        },
-        {
           "id": "com.lclc98:pixelconfig:1.0.0@jar",
           "name": "PixelConfig",
           "type": "ForgeMod",
@@ -851,9 +841,9 @@
           "name": "Pixelore리소스팩2번째로중요합니다.zip",
           "type": "File",
           "artifact": {
-            "size": 6147056,
+            "size": 6147142,
             "url": "https://github.com/mchdistro/PixeLore/raw/main/servers/PixeLore-1.16.5/files/resourcepacks/Pixelore%EB%A6%AC%EC%86%8C%EC%8A%A4%ED%8C%A92%EB%B2%88%EC%A7%B8%EB%A1%9C%EC%A4%91%EC%9A%94%ED%95%A9%EB%8B%88%EB%8B%A4.zip",
-            "MD5": "d7443b9331f179bb0e39920bf6ef030c",
+            "MD5": "c8bc8acbf53cfe5b7e51f62421bf81c9",
             "path": "resourcepacks/Pixelore리소스팩2번째로중요합니다.zip"
           }
         },
